@@ -10,9 +10,6 @@ public class discount {
 
         int finalFee = fee - discount;
 
-        System.out.println(
-                "The discount amount is INR " + discount +
-                        " and final discounted fee is INR " + finalFee
-        );
+        System.out.println("The discount amount is INR " + discount + " and final discounted fee is INR " + finalFee);
     }
 }
