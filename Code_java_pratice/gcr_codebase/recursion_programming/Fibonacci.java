@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package gcr_codebase.recursion_programming;
+
+>>>>>>> 3e3d7f1 (muskan)
 public class Fibonacci {
 
     static int fib(int n) {
@@ -13,4 +18,8 @@ public class Fibonacci {
         for (int i = 0; i < n; i++)
             System.out.print(fib(i) + " ");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3e3d7f1 (muskan)

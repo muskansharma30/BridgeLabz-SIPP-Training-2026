@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package gcr_codebase.recursion_programming;
+
+>>>>>>> 3e3d7f1 (muskan)
 public class Factorial {
 
     static int factorial(int n) {
@@ -11,4 +16,8 @@ public class Factorial {
         int n = 5;
         System.out.println(factorial(n));
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3e3d7f1 (muskan)
