@@ -12,6 +12,7 @@ public class raviwelcomecard {
         double salary= 50000;
         float membershipFee= 500;
         int AnnualBonus= (int)(salary*12/100);
+        System.out.println("Rank:"+ Rank);
         System.out.println("Name:"+name);
         System.out.println("Age:"+age);
         System.out.println("Salary:"+salary);
