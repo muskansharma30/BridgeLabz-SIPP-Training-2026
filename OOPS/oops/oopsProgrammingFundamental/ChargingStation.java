@@ -1,4 +1,4 @@
-package OOPS.oops.oopsProgrammingFundamental;
+package oops.oopsProgrammingFundamental;
 
 public class ChargingStation {
 
@@ -32,11 +32,11 @@ public class ChargingStation {
 
     public static void main(String[] args) {
 
-        ChargingStation s1 = new ChargingStation(101, 100);
-        ChargingStation s2 = new ChargingStation(102, 120);
-        ChargingStation s3 = new ChargingStation(103, 150);
-        ChargingStation s4 = new ChargingStation(104, 180);
-        ChargingStation s5 = new ChargingStation(105, 200);
+        oops.oopsProgrammingFundamental.ChargingStation s1 = new oops.oopsProgrammingFundamental.ChargingStation(101, 100);
+        oops.oopsProgrammingFundamental.ChargingStation s2 = new oops.oopsProgrammingFundamental.ChargingStation(102, 120);
+        oops.oopsProgrammingFundamental.ChargingStation s3 = new oops.oopsProgrammingFundamental.ChargingStation(103, 150);
+        oops.oopsProgrammingFundamental.ChargingStation s4 = new oops.oopsProgrammingFundamental.ChargingStation(104, 180);
+        oops.oopsProgrammingFundamental.ChargingStation s5 = new oops.oopsProgrammingFundamental.ChargingStation(105, 200);
 
         // Change electricity rate for all stations
         electricityRate = 10.0;

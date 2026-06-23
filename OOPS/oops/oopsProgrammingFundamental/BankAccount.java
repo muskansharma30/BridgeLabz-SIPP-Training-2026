@@ -1,4 +1,4 @@
-package OOPS.oops.oopsProgrammingFundamental;
+package oops.oopsProgrammingFundamental;
 
 public class BankAccount {
 
@@ -36,9 +36,9 @@ public class BankAccount {
 
     public static void main(String[] args) {
 
-        BankAccount a1 = new BankAccount(101, "Riya", 10000);
-        BankAccount a2 = new BankAccount(102, "Aman", 15000);
-        BankAccount a3 = new BankAccount(103, "Rohit", 20000);
+        oops.oopsProgrammingFundamental.BankAccount a1 = new oops.oopsProgrammingFundamental.BankAccount(101, "Riya", 10000);
+        oops.oopsProgrammingFundamental.BankAccount a2 = new oops.oopsProgrammingFundamental.BankAccount(102, "Aman", 15000);
+        oops.oopsProgrammingFundamental.BankAccount a3 = new oops.oopsProgrammingFundamental.BankAccount(103, "Rohit", 20000);
 
         // 5 transactions for Account 1
         a1.deposit(1000);
@@ -68,4 +68,5 @@ public class BankAccount {
         System.out.println("Total Accounts Created: " + totalAccounts);
     }
 }
+
 
