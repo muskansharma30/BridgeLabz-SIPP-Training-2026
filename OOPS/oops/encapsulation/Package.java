@@ -1,4 +1,4 @@
-package oops.oopsProgrammingFundamental;
+package oops.encapsulation;
 
 public class Package {
 
